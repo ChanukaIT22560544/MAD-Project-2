@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EVENTWING</string>
+    <string name="button_name">Next</string>
+    <string name="button_name1">Back</string>
+    <string name="button_name2">Login</string>
+    <string name="Edite_Text1">E-mail</string>
+    <string name="Edite_Text2">UserName</string>
+    <string name="Edite_Text3">Password</string>
+    <string name="Payment">Payments</string>
+    <string name="Card">Add Card Details :</string>
+    <string name="CNumber">Card Number :</string>
+    <string name="CPin">Pin Number :</string>
+    <string name="Ex">Ex Date :</string>
+    <string name="CHolder">Card Holder Name :</string>
+    <string name="TQ">Ticket quantity :</string>
+    <string name="Pay">PAY</string>
+    <string name="Remove"> Remove</string>
+
+</resources>

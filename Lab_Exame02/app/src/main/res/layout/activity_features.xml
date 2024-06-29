@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Features"
+    android:background="@drawable/wave__1_">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="95dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Menu"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="338dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cu"
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Coupons" />
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Tell us" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Notifications" />
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Feedback" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="History" />
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Setting" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="About us" />
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="86dp"
+                android:layout_margin="18dp"
+                android:background="@drawable/roundconer2"
+                android:text="Contact us" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="394dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="61dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#00FFFFFF"
+            android:drawableStart="@drawable/icons8_home_50"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <Button
+            android:id="@+id/m"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            android:background="#00FFFFFF"
+            android:drawableStart="@drawable/icons8_menu_50"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <Button
+            android:id="@+id/fav"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            android:background="#00FFFFFF"
+            android:drawableStart="@drawable/icons8_favorite_folder_50"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <Button
+            android:id="@+id/prof"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            android:background="#00FFFFFF"
+            android:drawableStart="@drawable/icons8_account_50"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:background="@drawable/wave__1_"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sing in"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/Email_Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/roundedconer"
+            android:hint="@string/Edite_Text1"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="#171515"
+            android:textColorHint="#131313"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Username_Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/roundedconer"
+            android:hint="@string/Edite_Text2"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#100F0F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Password_Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/roundedconer"
+            android:hint="@string/Edite_Text3"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="#170C0C"
+            android:textColorHint="#0E0E0E"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/roundedconer"
+            android:text="Login"
+            android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

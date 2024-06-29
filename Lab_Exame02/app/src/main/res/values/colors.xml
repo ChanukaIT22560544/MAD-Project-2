@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     //accent color
+    <color name="textwhite">#FFFFFF</color>
+    //secondary color
+    <color name="background">#000b76</color>
+    //primary color
+    <color name="logotext">#FFC61C</color>
+
+    <color name="layouts">#5C1C4DFF</color>
+    <color name="buttons">#7A1C6FFF</color>
+    <color name="icons">#090909</color>
+</resources>
+
